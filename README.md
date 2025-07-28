@@ -46,15 +46,15 @@ This project tracks food prices across different Kenyan regions, detects inflati
 
 ## 📊 Example Dashboards in Grafana
 
-1. **National Average Prices by Commodity** (Bar Chart + Slicer: `Month`, `Price Type`)
-2. **Map of Prices by County** (Geo Heatmap with markers for `Latitude`, `Longitude`, `AVG Price`)
-3. **Retail vs Wholesale Trends** (Line Chart by Date)
-4. **Price Inflation (Month-over-Month %)** (Table or Alert Panel)
-5. **Price Comparison by Region** (Box Plot or Histogram)
+1. **National Average Prices by Commodity** 
+2. **Map of Prices by County** 
+3. **Retail vs Wholesale Trends** 
+4. **Price Inflation (Month-over-Month %)** 
+5. **Price Comparison by Region** 
 
 ---
 
-## ⚖️ Sample Query: National Avg Prices (Latest Month)
+## Sample Query: National Avg Prices (Latest Month)
 
 ```sql
 WITH latest_date AS (
@@ -91,7 +91,7 @@ spark-submit food_price_etl.py
 
 ---
 
-## 📊 Potential Enhancements
+## Potential Enhancements
 
 - ✅ Integrate Debezium + Kafka for real-time CDC
 - ✅ Add weather/NDVI datasets for richer correlation

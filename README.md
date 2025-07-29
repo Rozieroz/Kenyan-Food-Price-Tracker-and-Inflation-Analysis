@@ -56,7 +56,6 @@ This project tracks food prices across different Kenyan regions, detects inflati
 ---
 
 ## Sample Query: National Avg Prices (Latest Month)
-<img width="1345" height="575" alt="grafana" src="https://github.com/user-attachments/assets/f41d08f1-d5d8-41cd-a297-cc635f345da1" />
 
 
 
@@ -92,6 +91,8 @@ spark-submit food_price_etl.py
 4. In Grafana:
    - Add PostgreSQL data source
    - Import dashboards from `grafana/`
+## Sample Grafana Visuals
+  <img width="1345" height="575" alt="grafana" src="https://github.com/user-attachments/assets/f41d08f1-d5d8-41cd-a297-cc635f345da1" />
 
 ---
 

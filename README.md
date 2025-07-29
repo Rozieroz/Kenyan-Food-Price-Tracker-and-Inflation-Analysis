@@ -6,11 +6,11 @@ This project tracks food prices across different Kenyan regions, detects inflati
 
 ## 🧹 Project Highlights
 
-- ⏱️ **ETL with PySpark**: Processes monthly/weekly food prices from open data sources
-- ✅ **Data Cleaning & Normalization**: Handles unit mismatches, missing values, and date formatting
-- ✨ **Star Schema Modeling**: Fact/dimension design for OLAP-style queries
-- 📊 **Grafana Dashboards**: Filterable and interactive dashboards with geospatial mapping
-- ⚡ **Inflation Detection**: Highlights anomalies and price shifts over time
+- **ETL with PySpark**: Processes monthly/weekly food prices from open data sources
+- **Data Cleaning & Normalization**: Handles unit mismatches, missing values, and date formatting
+- **Star Schema Modeling**: Fact/dimension design for OLAP-style queries
+- **Grafana Dashboards**: Filterable and interactive dashboards with geospatial mapping
+- **Inflation Detection**: Highlights anomalies and price shifts over time
 
 ---
 

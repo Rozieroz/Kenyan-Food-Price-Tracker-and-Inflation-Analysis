@@ -51,7 +51,10 @@ This project tracks food prices across different Kenyan regions, detects inflati
 2. **Map of Prices by County** 
 3. **Retail vs Wholesale Trends** 
 4. **Price Inflation (Month-over-Month %)** 
-5. **Price Comparison by Region** 
+5. **Price Comparison by Region**
+
+## Sample Grafana Visuals
+  <img width="1345" height="575" alt="grafana" src="https://github.com/user-attachments/assets/f41d08f1-d5d8-41cd-a297-cc635f345da1" />
 
 ---
 
@@ -91,9 +94,6 @@ spark-submit food_price_etl.py
 4. In Grafana:
    - Add PostgreSQL data source
    - Import dashboards from `grafana/`
-## Sample Grafana Visuals
-  <img width="1345" height="575" alt="grafana" src="https://github.com/user-attachments/assets/f41d08f1-d5d8-41cd-a297-cc635f345da1" />
-
 ---
 
 ## Potential Enhancements

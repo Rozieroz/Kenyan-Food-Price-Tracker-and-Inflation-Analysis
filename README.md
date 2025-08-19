@@ -45,7 +45,7 @@ This project tracks food prices across different Kenyan regions, detects inflati
 
 ---
 
-## 📊 Example Dashboards in Grafana
+## Example Dashboards in Grafana
 
 1. **National Average Prices by Commodity** 
 2. **Map of Prices by County** 

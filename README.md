@@ -4,7 +4,7 @@ This project tracks food prices across different Kenyan regions, detects inflati
 
 ---
 
-## 🧹 Project Highlights
+## Project Highlights
 
 - **ETL with PySpark**: Processes monthly/weekly food prices from open data sources
 - **Data Cleaning & Normalization**: Handles unit mismatches, missing values, and date formatting
@@ -14,7 +14,7 @@ This project tracks food prices across different Kenyan regions, detects inflati
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer        | Tools/Tech                         |
 |--------------|------------------------------------|
@@ -25,7 +25,7 @@ This project tracks food prices across different Kenyan regions, detects inflati
 
 ---
 
-## 📁 Star Schema Structure
+## Star Schema Structure
 
 ```plaintext
                   ┌───────────────┐
@@ -81,7 +81,7 @@ ORDER BY avg_price DESC;
 
 ---
 
-## 📖 How to Run
+## How to Run
 
 1. Clone this repo
 2. Configure your `.env` file with PostgreSQL credentials
@@ -98,14 +98,14 @@ spark-submit food_price_etl.py
 
 ## Potential Enhancements
 
-- ✅ Integrate Debezium + Kafka for real-time CDC
-- ✅ Add weather/NDVI datasets for richer correlation
-- ✅ Forecast commodity prices using ML models (e.g., Prophet, XGBoost)
-- ✅ Push inflation alerts to users via SMS or email
+- Integrate Debezium + Kafka for real-time CDC
+- Add weather/NDVI datasets for richer correlation
+- Forecast commodity prices using ML models (e.g., Prophet, XGBoost)
+- Push inflation alerts to users via SMS or email
 
 ---
 
-## 📄 License
+## License
 
 MIT License
 ─────
